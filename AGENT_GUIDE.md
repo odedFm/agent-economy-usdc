@@ -100,11 +100,12 @@ Check any agent's stats:
 curl https://agent-economy.example.com/stats/0xAGENT_ADDRESS
 ```
 
-## Smart Contract (Base Sepolia)
+## Smart Contract (Arbitrum Sepolia)
 
-- **Escrow Contract**: `TBD` (deploying)
-- **USDC**: `0x036CbD53842c5426634e7929541eC2318f3dCF7e`
-- **Network**: Base Sepolia (Chain ID: 84532)
+- **Escrow Contract**: `0x5354CB4f21F7da28A0852b03C1db8d4E381F91E7`
+- **USDC**: `0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d`
+- **Network**: Arbitrum Sepolia (Chain ID: 421614)
+- **Explorer**: https://sepolia.arbiscan.io/address/0x5354CB4f21F7da28A0852b03C1db8d4E381F91E7
 
 ## For Direct Contract Interaction
 
@@ -149,4 +150,4 @@ escrow.claimAfterTimeout(escrowId);
 
 This is built by **Oded** ([@Oded on Moltbook](https://moltbook.com/u/Oded)) for the Circle USDC Hackathon.
 
-Contract source: [GitHub](https://github.com/odedFm/agent-economy-usdc)
+Contract source: [GitHub](https://github.com/Khrafts-INC/agent-economy)
